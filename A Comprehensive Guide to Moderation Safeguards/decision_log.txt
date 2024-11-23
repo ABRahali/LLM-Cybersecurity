@@ -1,4 +1,0 @@
-2024-11-22 23:36:53 | Decision by Alice: Approved model deployment for version 1.2
-2024-11-22 23:36:53 | Decision by Bob: Rejected data retrieval request due to policy violation
-2024-11-22 23:37:01 | Decision by Alice: Approved model deployment for version 1.2
-2024-11-22 23:37:01 | Decision by Bob: Rejected data retrieval request due to policy violation
