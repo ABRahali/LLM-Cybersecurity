@@ -19,7 +19,7 @@ This repository is focused on the intersection of Large Language Models (LLMs) a
 | ---- | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | 2022 | [Differential Privacy for Text Generation with Large Language Models](https://arxiv.org/abs/2203.07627)            | Privacy techniques for LLMs in text generation              |
 | 2022 | [Mitigating Bias in Large Language Models: A Survey](https://arxiv.org/abs/2201.10717)                             | Bias mitigation in LLMs                                     |
-| 2022 | [Interpretability of Large Language Models: A Survey](https://arxiv.org/abs/2202.04393)                            | Making LLMs more interpretable                              |
+| 2022 | [Interpretability of Large Language Models: A Survey](https://arxiv.org/abs/2309.01029)                            | Making LLMs more interpretable                              |
 | 2022 | [Ensuring Robustness in Deployment of NLP Systems](https://arxiv.org/abs/2203.03029)                               | Robust deployment strategies for NLP models                 |
 | 2022 | [Malicious Generation: Exploring Vulnerabilities in NLP Models](https://arxiv.org/abs/2201.07275)                  | Vulnerabilities in NLP models due to malicious inputs       |
 | 2022 | [Prompt Injection: Attacks Against Large Language Models](https://arxiv.org/abs/2203.08424)                        | Attacks exploiting prompt injection vulnerabilities         |
