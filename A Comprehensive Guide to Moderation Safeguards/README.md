@@ -1,6 +1,6 @@
 # A Comprehensive Guide to Moderation Safeguards
 
-This folder contains a series of Jupyter notebooks demonstrating various strategies and practices to safeguard and moderate Large Language Models (LLMs) in the context of cybersecurity. These notebooks offer examples, best practices, and solutions to protect LLM systems from vulnerabilities and malicious exploitation.
+This folder contains a series of Jupyter notebooks demonstrating various strategies and practices to safeguard and moderate Large Language Models (LLMs) in the context of cybersecurity. These notebooks offer examples to protect LLM systems from vulnerabilities and malicious exploitation, **not real implimentations**.
 
 ## Overview
 
