@@ -1,4 +1,3 @@
-
 # Jailbreaks and Prompt Injection Attacks on LLMs
 
 ## Introduction
@@ -28,12 +27,6 @@ Jailbreaks typically target weaknesses in the design of the AI model’s safety 
 - **Reputation Damage**: Once an AI model is compromised, it can erode trust with users and stakeholders.
 - **Legal Compliance Issues**: Jailbreaking could lead to violations of regulations or standards, especially in sectors like finance or healthcare.
 
-### **Research Papers on Jailbreak Attacks**
-
-- [Jailbreaking AI Models: A Threat to AI Security](https://www.researchgate.net/publication/327594673_Jailbreaking_AI_Models)
-- [AI Model Manipulation: The Security Threat of Jailbreaking](https://arxiv.org/abs/2202.07851)
-- [Jailbreaking Language Models for Malicious Intent](https://arxiv.org/abs/2109.09687)
-
 ## 2. Prompt Injection Attacks
 
 ### **What is a Prompt Injection Attack?**
@@ -54,12 +47,6 @@ Prompt injection attacks exploit the way LLMs process and respond to natural lan
 - **System Compromise**: If exploited, prompt injections can lead to broader system vulnerabilities and breaches.
 - **Increased Vulnerabilities**: Over time, repeated attacks can degrade model reliability, trust, and robustness.
 
-### **Research Papers on Prompt Injection Attacks**
-
-- [Understanding and Mitigating Prompt Injection Attacks on AI Models](https://arxiv.org/abs/2203.10595)
-- [Prompt Injection and the Security Risks of AI Models](https://www.jstor.org/stable/26570564)
-- [Analyzing Prompt Injection in Language Models: A Case Study](https://arxiv.org/abs/2202.02477)
-
 ## 3. Differences Between Jailbreaks and Prompt Injection
 
 | **Aspect**       | **Jailbreak Attack**                                            | **Prompt Injection Attack**                                     |
@@ -75,12 +62,6 @@ While LLMs are designed to be powerful tools, they can also be exploited by mali
 
 - **Jailbreaks**: Attackers can train or fine-tune a model to bypass security constraints or restrictions, making it easier for the AI to produce harmful or restricted outputs. They may use LLMs to generate prompts that exploit weaknesses in the model’s defenses.
 - **Prompt Injection**: Using LLMs, attackers can craft prompt injections more efficiently, designing complex inputs that evade security measures, by exploiting the model's susceptibility to misleading instructions.
-
-### **Research Papers on Using LLMs for Generating Attacks**
-
-- [Leveraging Large Language Models for Security Attacks](https://arxiv.org/abs/2204.05053)
-- [Training Models to Bypass Safety Protocols: A Deep Dive into Jailbreaks](https://www.springer.com/gp/book/9783030613746)
-- [Automating Prompt Injection: Leveraging AI to Exploit AI](https://www.journals.sagepub.com/doi/abs/10.1177/00472875211008556)
 
 ## 5. Protecting LLMs Against Jailbreaks and Prompt Injection Attacks
 
@@ -105,12 +86,6 @@ Here are the strategies and solutions to protect LLMs from jailbreaking and prom
 
 - **User Input Restrictions**: Enforce strict input restrictions to limit the range of actions that users can request from the model.
 - **Behavioral Analytics**: Analyze user behavior to detect abnormal patterns that may indicate an attempt to manipulate the system.
-
-### **Research Papers on Protecting LLMs Against Attacks**
-
-- [Securing AI Models Against Jailbreaks and Prompt Injection Attacks](https://www.journals.sagepub.com/doi/abs/10.1177/0037549720903032)
-- [Defensive Techniques in LLMs: Mitigating Security Risks](https://arxiv.org/abs/2205.06529)
-- [Model Safeguards: Protecting AI from Exploitation](https://www.sciencedirect.com/science/article/abs/pii/S014193311930225X)
 
 ## Conclusion
 

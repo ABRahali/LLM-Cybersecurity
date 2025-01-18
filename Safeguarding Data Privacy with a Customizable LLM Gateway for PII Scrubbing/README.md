@@ -64,27 +64,6 @@ This process can be customized to allow for different levels of scrubbing based 
 - **Financial Services**: Ensuring that financial data such as account numbers and balances are not exposed during customer interactions.
 - **Enterprise Applications**: Safeguarding employee data, including names, salaries, and performance data, when interacting with internal systems powered by LLMs.
 
-## Research Papers and Resources
-
-- **[Privacy-Preserving Machine Learning: Threats and Solutions](https://arxiv.org/abs/2002.02752)**: A comprehensive guide on various privacy-preserving techniques in machine learning, including data scrubbing methods.
-- **[Protecting Privacy in NLP Applications](https://www.journals.elsevier.com/computer-security)**: Research on applying privacy-preserving techniques specifically for NLP applications like LLMs.
-- **[Secure AI and Privacy: Challenges and Approaches](https://www.sciencedirect.com/science/article/abs/pii/S1571066121000123)**: Discusses the broader landscape of AI and privacy protection, with case studies on how LLMs can be secured.
-
 ## Conclusion
 
 The **Customizable LLM Gateway for PII Scrubbing** offers a powerful solution for safeguarding data privacy in environments where sensitive information may be processed by AI models. With its real-time scrubbing capabilities, flexible rule configuration, and secure processing methods, organizations can ensure that they are meeting privacy standards without compromising on the functionality of their LLM-powered systems.
-
-## Getting Started
-
-To integrate the **Customizable LLM Gateway for PII Scrubbing** into your system, follow these steps:
-
-1. **Download**: Clone the repository or access the installation package.
-2. **Configure**: Customize the scrubbing rules based on your data privacy requirements.
-3. **Integrate**: Connect the gateway with your existing LLM-based application or platform.
-4. **Monitor**: Enable audit logging to track PII scrubbing activity and generate reports.
-
-For further assistance or customization options, refer to the official documentation or reach out to the development team.
-
----
-
-**Disclaimer**: This system is designed for compliance with privacy regulations but should be reviewed and customized based on your organization's specific needs. Always test the gateway to ensure that it is appropriately scrubbing all PII in your particular use case.

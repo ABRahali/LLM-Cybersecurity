@@ -8,41 +8,21 @@ As AI systems continue to grow in importance, their security becomes increasingl
 
    **Description**: Attackers inject malicious input into the training data, overwhelming the system and causing performance issues.
    **Impact**: This can lead to resource exhaustion and model degradation.
-   **Research Papers** :
-
-* [Poisoning-Based DoS Attacks on LLMs](https://www.devcenral.com/f5-community)
-* [The Impact of Poisoning on Large-Scale Models](https://arxiv.org/abs/2204.01852)
-* [Defending Against Poisoning Attacks in Machine Learning Systems]()
 
 ### 2. **Sponge Attacks**
 
    **Description**: These attacks drain system resources by consuming excessive computational power and memory, slowing down or crashing LLMs.
    **Impact**: Resource depletion and potential system crashes.
-   **Research Paper**: 
-
-* [Sponge Attacks on LLMs](https://www.globant.com/blog/sponge-attacks-llms)
-* [Exploiting Resource Bottlenecks in Deep Learning Models](https://arxiv.org/abs/2203.07828)
-* [Efficient Resource Management in AI Systems to Prevent Sponge Attacks]()
 
 ### 3. **Flowbreaking Attacks**
 
    **Description**: Attackers hijack AI models to provide harmful or misleading instructions, altering the model's behavior.
    **Impact**: This leads to vulnerabilities and the generation of harmful or incorrect outputs.
-   **Research Paper**: 
-
-* [Flowbreaking Attacks in AI/ML](https://www.knostic.ai)
-* [Flowbreaking Attacks: Breaking the Logic of AI Models](https://arxiv.org/abs/2205.12476)
-* [Countermeasures Against Flowbreaking in Neural Networks](https://www.sciencedirect.com/science/article/pii/S0167739X23000108)
 
 ### 4. **DDoS Attacks on LLMs**
 
    **Description**: Distributed Denial-of-Service attacks flood the system with traffic, causing service disruptions and slowdowns.
    **Impact**: Complete system failures and poor user experience.
-   **Research Paper**: 
-
-* [DDoS Attacks on AI Systems](https://www.darkreading.com)
-* [Scaling AI Systems to Defend Against DDoS Attacks](https://www.springer.com/gp/book/9783030748882)
-* [Machine Learning for Detecting DDoS Attacks in AI-Driven Systems](https://arxiv.org/abs/2201.02755)
 
 ### 5. **Jailbreaking Attacks**
 
@@ -50,23 +30,11 @@ As AI systems continue to grow in importance, their security becomes increasingl
 
  **Impact** : Jailbreaking can compromise the integrity of the model, leading to misuse of the AI system, potential data leaks, or generation of harmful outputs. This type of attack often involves circumventing safeguards put in place to control the model's behavior.
 
- **Research Paper** : 
-
-* [Jailbreaking AI Models: A Threat to AI Security]()
-* [The Rise of Jailbreaking: AI Models Under Siege](https://arxiv.org/abs/2209.00375)
-* [Secure AI: Preventing Jailbreaking Attacks on Large Language Models]()
-
 ### 6. **Prompt Injection Attacks**
 
  **Description** : Prompt injection attacks involve manipulating the input prompt provided to an LLM in a way that alters the model's output in unexpected or harmful ways. By crafting carefully designed prompts, attackers can trick the model into generating outputs that were never intended, such as sensitive data disclosure or biased content generation.
 
  **Impact** : This attack can lead to inaccurate outputs, security breaches, and the generation of harmful content. Since LLMs are trained to respond to input patterns, injecting malicious or misleading prompts can bypass safeguards and compromise the model's integrity.
-
- **Research Paper** : 
-
-* [Understanding and Mitigating Prompt Injection Attacks on AI Models](https://arxiv.org/abs/2203.10595)
-* [Prompt Injection Attacks and Mitigation Strategies](https://arxiv.org/abs/2208.06574)
-* [Towards Defending LLMs from Prompt Injection Vulnerabilities](https://www.springer.com/gp/book/9783030613746)
 
 ---
 
@@ -207,7 +175,6 @@ These attacks affect AI systems and other web applications, posing a wide range 
 
 ---
 
-
 ## Solutions to Defend Against LLM and General Attacks
 
 In response to the growing number of attacks targeting Large Language Models (LLMs) and other AI systems, various defense mechanisms have been developed to enhance security and model robustness. Below are some of the leading solutions designed to protect against common attack vectors:
@@ -218,14 +185,6 @@ In response to the growing number of attacks targeting Large Language Models (LL
 | **Nvidia Graduals** | Nvidia's Graduals technology is an innovative defensive system that scales computational resources dynamically to prevent overload during DDoS or resource-draining attacks. By utilizing adaptive scaling and predictive analytics, the system ensures that AI models remain operational under stress and can withstand traffic spikes without service degradation.                                                                              | Mitigates Sponge, Flowbreaking, and Session Hijacking attacks.              | [Nvidia&#39;sAdaptiveDefenseSystems](https://developer.nvidia.com/blog/ai-security-defensive-technologies) |
 | **Llama Graduals**  | Llama Graduals is a defense method used to fine-tune LLMs to ensure they remain resilient against adversarial inputs. By gradually introducing adversarial samples during training, the system allows the AI model to learn to resist manipulation, making it more robust to Poisoning-Based DoS and social engineering tactics. This technique improves model generalization while reducing vulnerability to exploitative behaviors.             | Helps in reducing the impact of Poisoning-Based DoS and Social Engineering. | [Llama: RobustAIModels](https://www.nature.com/articles/s41586-019-1213-3)                                 |
 | **Garak**           | Garak is a sophisticated real-time monitoring system that continuously evaluates inputs to LLMs, identifying and preventing malicious content from entering the model pipeline. By utilizing advanced pattern recognition, Garak can prevent harmful injections, ensuring the model does not generate dangerous outputs. The system also flags potential flowbreaking and sponge attack attempts by analyzing resource usage and output patterns. | Focuses on preventing Flowbreaking, Sponge, and Injection Attacks.          | [Garak: Real-TimeAIDefense]()                                                                              |
-
-### Further Reading on Solutions:
-
-* **AI Security Frameworks** : [AI Security - Current Trends and Future Directions]()
-* **Adaptive Defense Mechanisms** : [Defensive Machine Learning - Best Practices]()
-* **Adversarial Training** : [Adversarial Attacks and Defenses in AI](https://arxiv.org/abs/1811.07247)
-
-These advanced defense mechanisms provide the first line of defense against the evolving nature of AI-targeted attacks, ensuring that systems remain secure, reliable, and efficient under all conditions.
 
 ## Conclusion
 

@@ -69,13 +69,9 @@ GuardAgent leverages reasoning-enabled LLMs to provide safe, controlled, and eth
 
 This research explores methods for adaptive guardrails, which automatically adjust to the LLM's evolving behavior to ensure safe and reliable performance.
 
-- **Research Paper**: [Adaptive Guardrails for LLM Safety](https://www.researchgate.net/publication/382314247_Guardrails_for_trust_safety_and_ethical_development_and_deployment_of_Large_Language_Models_LLM)
-
 ### 2. **Advanced Safety Features in AI**
 
 This paper introduces advanced safety features for LLM deployment, including real-time content moderation, ethical decision-making frameworks, and bias detection mechanisms.
-
-- **Research Paper**: [Advanced Safety Features for LLMs](https://arxiv.org/abs/2407.12358)
 
 ## The Challenges in Implementing LLM Guardrails
 
